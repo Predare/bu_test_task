@@ -3,7 +3,7 @@ const props = defineProps(['restaurant']);
 </script>
 
 <template>
-    <div class="card card-compact bg-base-100 shadow-xl min-w-fit w-full max-w-xl">
+    <div class="card card-compact bg-base-100 shadow-xl min-w-fit sm:w-96 w-full max-w-xl">
         <figure v-if="restaurant.photo"><img :src="restaurant.photo" alt="restaurant" />
         </figure>
         <div class="card-body">
